@@ -1,0 +1,47 @@
+const package = [
+    {
+        id:1,
+        name:"Tour package 1",
+        description: "This is the first tour package",
+        price:1000,
+        duration:"3 days",
+        image: "tou1.png",
+        destination:"Kerala"
+
+    },
+
+        {
+        id:2,
+        name:"Tour package 2",
+        description: "This is the first tour package",
+        price:1400,
+        duration:"3 days",
+        image: "tou1.png",
+        destination:"Goa"
+
+    },
+
+        {
+        id:3,
+        name:"Tour package 3",
+        description: "This is the first tour package",
+        price:1600,
+        duration:"3 days",
+        image: "tou1.png",
+        destination:"Mumbai"
+
+    },
+
+        {
+        id:4,
+        name:"Tour package 4",
+        description: "This is the first tour package",
+        price:1800,
+        duration:"3 days",
+        image: "tou1.png",
+        destination:"Delhi"
+
+    }
+]
+
+module.exports = package
