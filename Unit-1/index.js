@@ -3,14 +3,16 @@ const express = require("express");
 const app = express();
 
 const tourRoutes = require("./route/tourRoute");
+const userRoutes = require("./route/userRoute");
 
-// Middleware
 app.use(express.json());
 
-// Routes
+// Tour routes
 app.use("/", tourRoutes);
 
-// Start server
+// User routes
+app.use("/", userRoutes);
+
 app.listen(3000, () => {
     console.log("Server is running");
 });
