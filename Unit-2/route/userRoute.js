@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-const userController = require("../controller/userController");
+const userController = require("../../Unit-2/controller/userController");
 
 // GET ALL USERS
 router.get("/user", userController.getAllUsers);
